@@ -20,7 +20,6 @@ class Product extends Model {
         type: DataType.BOOLEAN
     })
     declare availability: boolean
-
 }
 
 export default Product
