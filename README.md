@@ -61,7 +61,7 @@ A continuación se detalla dónde y cómo se utiliza cada tecnología dentro de 
 ## Desafíos Técnicos Resueltos
 
 ### 1. Implementación de Testing Automatizado
-Tuve que resolver el reto de hacer compatible Jest con TypeScript (probablemente usando ts-jest o configurando los presets), permitiendo correr tests unitarios o de integración para validar tu API sin tener que probar manualmente cada endpoint.
+Tuve que hacer compatible Jest con TypeScript, permitiendo correr tests unitarios o de integración para validar tu API sin tener que probar manualmente cada endpoint.
 
 ### 2. Configuración de Entorno de Desarrollo Tipado (TypeScript)
 He definido las reglas del compilador (como el outDir para producción, el rootDir en `./src`, y y reglas estrictas como `strict: true`). Esto asegura que el servidor (Express) y la base de datos (Sequelize) tengan un tipado estático fuerte, previniendo errores comunes en tiempo de ejecución.
