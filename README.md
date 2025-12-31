@@ -1,7 +1,7 @@
 <table width="100%" align="center">
   <tr>
     <td align="center" valign="middle">
-      <h1>🛠️ REST API - Administrador de Productoss</h1>
+      <h1>🛠️ REST API - Administrador de Productos</h1>
       <p><b>Backend con TypeScript, Testing de Integración y Documentación Viva</b></p>
       <hr width="50%" />
       <p>Node.js | Express | TypeScript | Sequelize (PostgreSQL) | Jest | Swagger</p>
