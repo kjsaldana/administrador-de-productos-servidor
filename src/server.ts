@@ -1,4 +1,4 @@
-import express from 'express'
+import express, { Express } from 'express'
 import router from './router'
 import db from './config/db'
 import colors from 'colors'
@@ -20,10 +20,10 @@ export async function connectDB() {
 }
 connectDB()
 
-const server = express()
+const server: Express = express()
 
 const corsOptions: CorsOptions = {
-    origin: function(origin, callback) {
+    origin: function (origin, callback) {
         if (!origin || origin === process.env.FRONTEND_URL) {
             callback(null, true)
         } else {

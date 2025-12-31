@@ -22,11 +22,6 @@ const options: swaggerJSDoc.Options = {
 const swaggerSpec = swaggerJSDoc(options)
 
 const swaggerUiOptions: SwaggerUiOptions = {
-    customCss: `
-        .topbar-wrapper .link {
-            content: url('https://files.catbox.moe/sskecw.svg');
-        }
-    `,
     customSiteTitle: 'Documentation Rest API'
 }
 

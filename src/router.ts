@@ -3,7 +3,7 @@ import { createProduct, getProducts, getProductById, updateProduct, updateAvaila
 import { body, param } from 'express-validator'
 import { handleInputErrors } from './middleware'
 
-const router = Router()
+const router: Router = Router()
 
 /**
  * @swagger
