@@ -219,7 +219,7 @@ router.put('/:id',
  *              description: Product not found
  */
 
-router.patch('/:id', 
+router.patch('/:id',
     param('id').isInt().withMessage('Id no válido'),
     handleInputErrors,
     updateAvailability
