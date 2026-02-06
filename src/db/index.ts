@@ -1,5 +1,16 @@
 import { exit } from 'node:process'
 import db from '../config/db'
+import colors from 'colors'
+
+export async function connectDB() {
+    try {
+        await db.authenticate()
+        db.sync()
+    } catch (error) {
+        console.log(colors.red('connection error'))
+    }
+}
+connectDB()
 
 const clearDB = async () => {
     try {
