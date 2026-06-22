@@ -44,7 +44,7 @@ El backend fue construido no solo para servir datos, sino para garantizar su int
 
 ---
 
-## Stack Tecnológico: Implementación en Código
+## Stack Tecnológico
 
 A continuación se detalla dónde y cómo se utiliza cada tecnología dentro de la estructura del proyecto:
 
